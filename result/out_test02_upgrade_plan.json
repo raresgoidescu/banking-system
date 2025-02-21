@@ -1,0 +1,388 @@
+[ {
+  "command" : "printUsers",
+  "timestamp" : 1,
+  "output" : [ {
+    "email" : "Chad_Robinson@hotmail.us",
+    "lastName" : "Robinson",
+    "firstName" : "Chad",
+    "accounts" : [ ]
+  }, {
+    "email" : "Madeleine_De_Oliveira@hotmail.fr",
+    "lastName" : "De Oliveira",
+    "firstName" : "Madeleine",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nae_Mazilescu@hotmail.ro",
+    "lastName" : "Mazilescu",
+    "firstName" : "Nae",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nicusor_Ene@outlook.ro",
+    "lastName" : "Ene",
+    "firstName" : "Nicusor",
+    "accounts" : [ ]
+  }, {
+    "email" : "Melanie_Hickman@hotmail.us",
+    "lastName" : "Hickman",
+    "firstName" : "Melanie",
+    "accounts" : [ ]
+  }, {
+    "email" : "Wendy_Lambert@gmail.us",
+    "lastName" : "Lambert",
+    "firstName" : "Wendy",
+    "accounts" : [ ]
+  }, {
+    "email" : "Smaranda_Stan@hotmail.ro",
+    "lastName" : "Stan",
+    "firstName" : "Smaranda",
+    "accounts" : [ ]
+  }, {
+    "email" : "Laura_Reeves@yahoo.us",
+    "lastName" : "Reeves",
+    "firstName" : "Laura",
+    "accounts" : [ ]
+  }, {
+    "email" : "Timothee_Le_Jacquet@outlook.fr",
+    "lastName" : "Le Jacquet",
+    "firstName" : "Timothee",
+    "accounts" : [ ]
+  }, {
+    "email" : "John_Fowler@gmail.us",
+    "lastName" : "Fowler",
+    "firstName" : "John",
+    "accounts" : [ ]
+  } ]
+}, {
+  "command" : "printUsers",
+  "timestamp" : 6,
+  "output" : [ {
+    "email" : "Chad_Robinson@hotmail.us",
+    "lastName" : "Robinson",
+    "firstName" : "Chad",
+    "accounts" : [ {
+      "balance" : 102.77777777777777,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB7344468893732422"
+    } ]
+  }, {
+    "email" : "Madeleine_De_Oliveira@hotmail.fr",
+    "lastName" : "De Oliveira",
+    "firstName" : "Madeleine",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nae_Mazilescu@hotmail.ro",
+    "lastName" : "Mazilescu",
+    "firstName" : "Nae",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nicusor_Ene@outlook.ro",
+    "lastName" : "Ene",
+    "firstName" : "Nicusor",
+    "accounts" : [ ]
+  }, {
+    "email" : "Melanie_Hickman@hotmail.us",
+    "lastName" : "Hickman",
+    "firstName" : "Melanie",
+    "accounts" : [ ]
+  }, {
+    "email" : "Wendy_Lambert@gmail.us",
+    "lastName" : "Lambert",
+    "firstName" : "Wendy",
+    "accounts" : [ ]
+  }, {
+    "email" : "Smaranda_Stan@hotmail.ro",
+    "lastName" : "Stan",
+    "firstName" : "Smaranda",
+    "accounts" : [ ]
+  }, {
+    "email" : "Laura_Reeves@yahoo.us",
+    "lastName" : "Reeves",
+    "firstName" : "Laura",
+    "accounts" : [ ]
+  }, {
+    "email" : "Timothee_Le_Jacquet@outlook.fr",
+    "lastName" : "Le Jacquet",
+    "firstName" : "Timothee",
+    "accounts" : [ ]
+  }, {
+    "email" : "John_Fowler@gmail.us",
+    "lastName" : "Fowler",
+    "firstName" : "John",
+    "accounts" : [ {
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO69POOB6209498372540635"
+    } ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 9,
+  "output" : [ {
+    "timestamp" : 2,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 4,
+    "description" : "Upgrade plan",
+    "newPlanType" : "silver",
+    "accountIBAN" : "RO58POOB7344468893732422"
+  }, {
+    "timestamp" : 8,
+    "description" : "Miscellaneous online expenses",
+    "amount" : "122.0 USD",
+    "transferType" : "sent",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635"
+  } ]
+}, {
+  "command" : "printUsers",
+  "timestamp" : 12,
+  "output" : [ {
+    "email" : "Chad_Robinson@hotmail.us",
+    "lastName" : "Robinson",
+    "firstName" : "Chad",
+    "accounts" : [ {
+      "balance" : 515.1002222222222,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB7344468893732422"
+    } ]
+  }, {
+    "email" : "Madeleine_De_Oliveira@hotmail.fr",
+    "lastName" : "De Oliveira",
+    "firstName" : "Madeleine",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nae_Mazilescu@hotmail.ro",
+    "lastName" : "Mazilescu",
+    "firstName" : "Nae",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nicusor_Ene@outlook.ro",
+    "lastName" : "Ene",
+    "firstName" : "Nicusor",
+    "accounts" : [ ]
+  }, {
+    "email" : "Melanie_Hickman@hotmail.us",
+    "lastName" : "Hickman",
+    "firstName" : "Melanie",
+    "accounts" : [ ]
+  }, {
+    "email" : "Wendy_Lambert@gmail.us",
+    "lastName" : "Lambert",
+    "firstName" : "Wendy",
+    "accounts" : [ ]
+  }, {
+    "email" : "Smaranda_Stan@hotmail.ro",
+    "lastName" : "Stan",
+    "firstName" : "Smaranda",
+    "accounts" : [ ]
+  }, {
+    "email" : "Laura_Reeves@yahoo.us",
+    "lastName" : "Reeves",
+    "firstName" : "Laura",
+    "accounts" : [ ]
+  }, {
+    "email" : "Timothee_Le_Jacquet@outlook.fr",
+    "lastName" : "Le Jacquet",
+    "firstName" : "Timothee",
+    "accounts" : [ ]
+  }, {
+    "email" : "John_Fowler@gmail.us",
+    "lastName" : "Fowler",
+    "firstName" : "John",
+    "accounts" : [ {
+      "balance" : 122.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO69POOB6209498372540635"
+    } ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 13,
+  "output" : [ {
+    "timestamp" : 2,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 4,
+    "description" : "Upgrade plan",
+    "newPlanType" : "silver",
+    "accountIBAN" : "RO58POOB7344468893732422"
+  }, {
+    "timestamp" : 8,
+    "description" : "Miscellaneous online expenses",
+    "amount" : "122.0 USD",
+    "transferType" : "sent",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635"
+  }, {
+    "timestamp" : 11,
+    "description" : "Upgrade plan",
+    "newPlanType" : "gold",
+    "accountIBAN" : "RO58POOB7344468893732422"
+  } ]
+}, {
+  "command" : "deleteAccount",
+  "timestamp" : 15,
+  "output" : {
+    "error" : "Account couldn't be deleted - see org.poo.transactions for details",
+    "timestamp" : 15
+  }
+}, {
+  "command" : "printUsers",
+  "timestamp" : 16,
+  "output" : [ {
+    "email" : "Chad_Robinson@hotmail.us",
+    "lastName" : "Robinson",
+    "firstName" : "Chad",
+    "accounts" : [ {
+      "balance" : 515.1002222222222,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB7344468893732422"
+    } ]
+  }, {
+    "email" : "Madeleine_De_Oliveira@hotmail.fr",
+    "lastName" : "De Oliveira",
+    "firstName" : "Madeleine",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nae_Mazilescu@hotmail.ro",
+    "lastName" : "Mazilescu",
+    "firstName" : "Nae",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nicusor_Ene@outlook.ro",
+    "lastName" : "Ene",
+    "firstName" : "Nicusor",
+    "accounts" : [ ]
+  }, {
+    "email" : "Melanie_Hickman@hotmail.us",
+    "lastName" : "Hickman",
+    "firstName" : "Melanie",
+    "accounts" : [ ]
+  }, {
+    "email" : "Wendy_Lambert@gmail.us",
+    "lastName" : "Lambert",
+    "firstName" : "Wendy",
+    "accounts" : [ ]
+  }, {
+    "email" : "Smaranda_Stan@hotmail.ro",
+    "lastName" : "Stan",
+    "firstName" : "Smaranda",
+    "accounts" : [ ]
+  }, {
+    "email" : "Laura_Reeves@yahoo.us",
+    "lastName" : "Reeves",
+    "firstName" : "Laura",
+    "accounts" : [ ]
+  }, {
+    "email" : "Timothee_Le_Jacquet@outlook.fr",
+    "lastName" : "Le Jacquet",
+    "firstName" : "Timothee",
+    "accounts" : [ ]
+  }, {
+    "email" : "John_Fowler@gmail.us",
+    "lastName" : "Fowler",
+    "firstName" : "John",
+    "accounts" : [ {
+      "balance" : 122.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO69POOB6209498372540635"
+    } ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 20,
+  "output" : [ {
+    "timestamp" : 17,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 19,
+    "description" : "Upgrade plan",
+    "newPlanType" : "silver",
+    "accountIBAN" : "RO90POOB5450777208072365"
+  } ]
+}, {
+  "command" : "deleteAccount",
+  "timestamp" : 21,
+  "output" : {
+    "success" : "Account deleted",
+    "timestamp" : 21
+  }
+}, {
+  "command" : "printUsers",
+  "timestamp" : 22,
+  "output" : [ {
+    "email" : "Chad_Robinson@hotmail.us",
+    "lastName" : "Robinson",
+    "firstName" : "Chad",
+    "accounts" : [ {
+      "balance" : 515.1002222222222,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB7344468893732422"
+    } ]
+  }, {
+    "email" : "Madeleine_De_Oliveira@hotmail.fr",
+    "lastName" : "De Oliveira",
+    "firstName" : "Madeleine",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nae_Mazilescu@hotmail.ro",
+    "lastName" : "Mazilescu",
+    "firstName" : "Nae",
+    "accounts" : [ ]
+  }, {
+    "email" : "Nicusor_Ene@outlook.ro",
+    "lastName" : "Ene",
+    "firstName" : "Nicusor",
+    "accounts" : [ ]
+  }, {
+    "email" : "Melanie_Hickman@hotmail.us",
+    "lastName" : "Hickman",
+    "firstName" : "Melanie",
+    "accounts" : [ ]
+  }, {
+    "email" : "Wendy_Lambert@gmail.us",
+    "lastName" : "Lambert",
+    "firstName" : "Wendy",
+    "accounts" : [ ]
+  }, {
+    "email" : "Smaranda_Stan@hotmail.ro",
+    "lastName" : "Stan",
+    "firstName" : "Smaranda",
+    "accounts" : [ ]
+  }, {
+    "email" : "Laura_Reeves@yahoo.us",
+    "lastName" : "Reeves",
+    "firstName" : "Laura",
+    "accounts" : [ ]
+  }, {
+    "email" : "Timothee_Le_Jacquet@outlook.fr",
+    "lastName" : "Le Jacquet",
+    "firstName" : "Timothee",
+    "accounts" : [ ]
+  }, {
+    "email" : "John_Fowler@gmail.us",
+    "lastName" : "Fowler",
+    "firstName" : "John",
+    "accounts" : [ {
+      "balance" : 122.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO69POOB6209498372540635"
+    } ]
+  } ]
+} ]

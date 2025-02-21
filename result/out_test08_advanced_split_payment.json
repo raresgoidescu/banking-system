@@ -1,0 +1,685 @@
+[ {
+  "command" : "printTransactions",
+  "timestamp" : 25,
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 23,
+    "description" : "Shopping at Galeries Lafayette",
+    "amount" : "1081.0 EUR",
+    "transferType" : "sent",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635"
+  } ]
+}, {
+  "command" : "payOnline",
+  "timestamp" : 26,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 26
+  }
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 27,
+  "output" : [ {
+    "timestamp" : 3,
+    "description" : "New account created"
+  } ]
+}, {
+  "command" : "printUsers",
+  "timestamp" : 41,
+  "output" : [ {
+    "email" : "Anastasie_Raymond@outlook.fr",
+    "lastName" : "Raymond",
+    "firstName" : "Anastasie",
+    "accounts" : [ {
+      "balance" : 735.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB7344468893732422"
+    } ]
+  }, {
+    "email" : "Elodie_du_Verdier@hotmail.fr",
+    "lastName" : "du Verdier",
+    "firstName" : "Elodie",
+    "accounts" : [ {
+      "balance" : 2715.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO69POOB6209498372540635"
+    } ]
+  }, {
+    "email" : "Mariana_Tudor@gmail.ro",
+    "lastName" : "Tudor",
+    "firstName" : "Mariana",
+    "accounts" : [ {
+      "balance" : 1754.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO90POOB5450777208072365"
+    } ]
+  }, {
+    "email" : "Leonard_Marin@outlook.ro",
+    "lastName" : "Marin",
+    "firstName" : "Leonard",
+    "accounts" : [ {
+      "balance" : 1846.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO65POOB8944016386845896"
+    } ]
+  }, {
+    "email" : "David_Johnson@gmail.us",
+    "lastName" : "Johnson",
+    "firstName" : "David",
+    "accounts" : [ {
+      "balance" : 1665.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB2721178218599590"
+    } ]
+  }, {
+    "email" : "Calvin_Stanton@gmail.us",
+    "lastName" : "Stanton",
+    "firstName" : "Calvin",
+    "accounts" : [ {
+      "balance" : 1646.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO76POOB4035116042454483"
+    } ]
+  }, {
+    "email" : "Valentine_Bonnet-Benard@outlook.fr",
+    "lastName" : "Bonnet-Benard",
+    "firstName" : "Valentine",
+    "accounts" : [ {
+      "balance" : 1517.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO37POOB7013767509830666"
+    } ]
+  }, {
+    "email" : "Ionel_Stan@yahoo.ro",
+    "lastName" : "Stan",
+    "firstName" : "Ionel",
+    "accounts" : [ {
+      "balance" : 1532.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO19POOB4981055641668812"
+    } ]
+  }, {
+    "email" : "Arthur_Pruvost-Renault@hotmail.fr",
+    "lastName" : "Pruvost-Renault",
+    "firstName" : "Arthur",
+    "accounts" : [ {
+      "balance" : 1777.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO30POOB9523423715747796"
+    } ]
+  }, {
+    "email" : "John_Martinez@hotmail.us",
+    "lastName" : "Martinez",
+    "firstName" : "John",
+    "accounts" : [ {
+      "balance" : 1891.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO79POOB3616857825600958"
+    } ]
+  } ]
+}, {
+  "command" : "cashWithdrawal",
+  "timestamp" : 42,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 42
+  }
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 55,
+  "output" : [ {
+    "timestamp" : 3,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 54,
+    "description" : "Weekly groceries from Carrefour",
+    "amount" : "2737.0 RON",
+    "transferType" : "sent",
+    "senderIBAN" : "RO90POOB5450777208072365",
+    "receiverIBAN" : "RO58POOB7344468893732422"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 80,
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  }, {
+    "timestamp" : 23,
+    "description" : "Shopping at Galeries Lafayette",
+    "amount" : "1081.0 EUR",
+    "transferType" : "sent",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635"
+  }, {
+    "timestamp" : 54,
+    "description" : "Weekly groceries from Carrefour",
+    "amount" : "547.4 EUR",
+    "transferType" : "received",
+    "senderIBAN" : "RO90POOB5450777208072365",
+    "receiverIBAN" : "RO58POOB7344468893732422"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 81,
+  "output" : [ {
+    "timestamp" : 2,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  }, {
+    "timestamp" : 23,
+    "description" : "Shopping at Galeries Lafayette",
+    "amount" : "1081.0 EUR",
+    "transferType" : "received",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 82,
+  "output" : [ {
+    "timestamp" : 3,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  }, {
+    "timestamp" : 54,
+    "description" : "Weekly groceries from Carrefour",
+    "amount" : "2737.0 RON",
+    "transferType" : "sent",
+    "senderIBAN" : "RO90POOB5450777208072365",
+    "receiverIBAN" : "RO58POOB7344468893732422"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 83,
+  "output" : [ {
+    "timestamp" : 4,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 84,
+  "output" : [ {
+    "timestamp" : 5,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  } ]
+}, {
+  "command" : "payOnline",
+  "timestamp" : 85,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 85
+  }
+}, {
+  "command" : "payOnline",
+  "timestamp" : 86,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 86
+  }
+}, {
+  "command" : "printUsers",
+  "timestamp" : 87,
+  "output" : [ {
+    "email" : "Anastasie_Raymond@outlook.fr",
+    "lastName" : "Raymond",
+    "firstName" : "Anastasie",
+    "accounts" : [ {
+      "balance" : 2403.4,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB7344468893732422"
+    } ]
+  }, {
+    "email" : "Elodie_du_Verdier@hotmail.fr",
+    "lastName" : "du Verdier",
+    "firstName" : "Elodie",
+    "accounts" : [ {
+      "balance" : 4056.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO69POOB6209498372540635"
+    } ]
+  }, {
+    "email" : "Mariana_Tudor@gmail.ro",
+    "lastName" : "Tudor",
+    "firstName" : "Mariana",
+    "accounts" : [ {
+      "balance" : 341.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO90POOB5450777208072365"
+    } ]
+  }, {
+    "email" : "Leonard_Marin@outlook.ro",
+    "lastName" : "Marin",
+    "firstName" : "Leonard",
+    "accounts" : [ {
+      "balance" : 3302.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO65POOB8944016386845896"
+    } ]
+  }, {
+    "email" : "David_Johnson@gmail.us",
+    "lastName" : "Johnson",
+    "firstName" : "David",
+    "accounts" : [ {
+      "balance" : 3601.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB2721178218599590"
+    } ]
+  }, {
+    "email" : "Calvin_Stanton@gmail.us",
+    "lastName" : "Stanton",
+    "firstName" : "Calvin",
+    "accounts" : [ {
+      "balance" : 2879.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO76POOB4035116042454483"
+    } ]
+  }, {
+    "email" : "Valentine_Bonnet-Benard@outlook.fr",
+    "lastName" : "Bonnet-Benard",
+    "firstName" : "Valentine",
+    "accounts" : [ {
+      "balance" : 2989.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO37POOB7013767509830666"
+    } ]
+  }, {
+    "email" : "Ionel_Stan@yahoo.ro",
+    "lastName" : "Stan",
+    "firstName" : "Ionel",
+    "accounts" : [ {
+      "balance" : 3142.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO19POOB4981055641668812"
+    } ]
+  }, {
+    "email" : "Arthur_Pruvost-Renault@hotmail.fr",
+    "lastName" : "Pruvost-Renault",
+    "firstName" : "Arthur",
+    "accounts" : [ {
+      "balance" : 3221.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO30POOB9523423715747796"
+    } ]
+  }, {
+    "email" : "John_Martinez@hotmail.us",
+    "lastName" : "Martinez",
+    "firstName" : "John",
+    "accounts" : [ {
+      "balance" : 3066.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO79POOB3616857825600958"
+    } ]
+  } ]
+}, {
+  "command" : "payOnline",
+  "timestamp" : 226,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 226
+  }
+}, {
+  "command" : "payOnline",
+  "timestamp" : 227,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 227
+  }
+}, {
+  "command" : "payOnline",
+  "timestamp" : 228,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 228
+  }
+}, {
+  "command" : "payOnline",
+  "timestamp" : 229,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 229
+  }
+}, {
+  "command" : "payOnline",
+  "timestamp" : 230,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 230
+  }
+}, {
+  "command" : "payOnline",
+  "timestamp" : 231,
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 231
+  }
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 232,
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  }, {
+    "timestamp" : 23,
+    "description" : "Shopping at Galeries Lafayette",
+    "amount" : "1081.0 EUR",
+    "transferType" : "sent",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635"
+  }, {
+    "timestamp" : 28,
+    "description" : "Split payment of 2235.00 EUR",
+    "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
+    "amount" : 745.0,
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO90POOB5450777208072365", "RO30POOB9523423715747796" ],
+    "splitPaymentType" : "equal"
+  }, {
+    "timestamp" : 54,
+    "description" : "Weekly groceries from Carrefour",
+    "amount" : "547.4 EUR",
+    "transferType" : "received",
+    "senderIBAN" : "RO90POOB5450777208072365",
+    "receiverIBAN" : "RO58POOB7344468893732422"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 233,
+  "output" : [ {
+    "timestamp" : 2,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  }, {
+    "timestamp" : 23,
+    "description" : "Shopping at Galeries Lafayette",
+    "amount" : "1081.0 EUR",
+    "transferType" : "received",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 234,
+  "output" : [ {
+    "timestamp" : 3,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  }, {
+    "timestamp" : 28,
+    "description" : "Split payment of 2235.00 EUR",
+    "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
+    "amount" : 745.0,
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO90POOB5450777208072365", "RO30POOB9523423715747796" ],
+    "splitPaymentType" : "equal"
+  }, {
+    "timestamp" : 54,
+    "description" : "Weekly groceries from Carrefour",
+    "amount" : "2737.0 RON",
+    "transferType" : "sent",
+    "senderIBAN" : "RO90POOB5450777208072365",
+    "receiverIBAN" : "RO58POOB7344468893732422"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 235,
+  "output" : [ {
+    "timestamp" : 4,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 236,
+  "output" : [ {
+    "timestamp" : 5,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Split payment of 3976.33 EUR",
+    "error" : "Account RO65POOB8944016386845896 has insufficient funds for a split payment.",
+    "amountForUsers" : [ 813.33, 893.0, 665.0, 1570.0, 35.0 ],
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "splitPaymentType" : "custom"
+  } ]
+}, {
+  "command" : "printTransactions",
+  "timestamp" : 237,
+  "output" : [ {
+    "timestamp" : 9,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 28,
+    "description" : "Split payment of 2235.00 EUR",
+    "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
+    "amount" : 745.0,
+    "currency" : "EUR",
+    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO90POOB5450777208072365", "RO30POOB9523423715747796" ],
+    "splitPaymentType" : "equal"
+  } ]
+}, {
+  "command" : "printUsers",
+  "timestamp" : 238,
+  "output" : [ {
+    "email" : "Anastasie_Raymond@outlook.fr",
+    "lastName" : "Raymond",
+    "firstName" : "Anastasie",
+    "accounts" : [ {
+      "balance" : 2403.4,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB7344468893732422"
+    } ]
+  }, {
+    "email" : "Elodie_du_Verdier@hotmail.fr",
+    "lastName" : "du Verdier",
+    "firstName" : "Elodie",
+    "accounts" : [ {
+      "balance" : 4056.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO69POOB6209498372540635"
+    } ]
+  }, {
+    "email" : "Mariana_Tudor@gmail.ro",
+    "lastName" : "Tudor",
+    "firstName" : "Mariana",
+    "accounts" : [ {
+      "balance" : 341.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO90POOB5450777208072365"
+    } ]
+  }, {
+    "email" : "Leonard_Marin@outlook.ro",
+    "lastName" : "Marin",
+    "firstName" : "Leonard",
+    "accounts" : [ {
+      "balance" : 3302.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO65POOB8944016386845896"
+    } ]
+  }, {
+    "email" : "David_Johnson@gmail.us",
+    "lastName" : "Johnson",
+    "firstName" : "David",
+    "accounts" : [ {
+      "balance" : 3601.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO58POOB2721178218599590"
+    } ]
+  }, {
+    "email" : "Calvin_Stanton@gmail.us",
+    "lastName" : "Stanton",
+    "firstName" : "Calvin",
+    "accounts" : [ {
+      "balance" : 2879.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO76POOB4035116042454483"
+    } ]
+  }, {
+    "email" : "Valentine_Bonnet-Benard@outlook.fr",
+    "lastName" : "Bonnet-Benard",
+    "firstName" : "Valentine",
+    "accounts" : [ {
+      "balance" : 2989.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO37POOB7013767509830666"
+    } ]
+  }, {
+    "email" : "Ionel_Stan@yahoo.ro",
+    "lastName" : "Stan",
+    "firstName" : "Ionel",
+    "accounts" : [ {
+      "balance" : 3142.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO19POOB4981055641668812"
+    } ]
+  }, {
+    "email" : "Arthur_Pruvost-Renault@hotmail.fr",
+    "lastName" : "Pruvost-Renault",
+    "firstName" : "Arthur",
+    "accounts" : [ {
+      "balance" : 3221.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO30POOB9523423715747796"
+    } ]
+  }, {
+    "email" : "John_Martinez@hotmail.us",
+    "lastName" : "Martinez",
+    "firstName" : "John",
+    "accounts" : [ {
+      "balance" : 3066.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ],
+      "IBAN" : "RO79POOB3616857825600958"
+    } ]
+  } ]
+} ]
